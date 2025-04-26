@@ -1,7 +1,8 @@
 # tiny-timer
 
-tiny-timer is a simple, lightweight C++ library that measures how many times a function can be called within a specific time frame (in microseconds).
-It also offers easy-to-use scope timing for benchmarking and profiling.
+### tiny-timer is a simple, lightweight C++ library that measures how many times a function can be called within a specific time frame (in microseconds).
+### It also offers easy-to-use scope timing for benchmarking and profiling.
+
 ---
 ✨ Features
 
