@@ -6,9 +6,8 @@
     (timer).calling_duration(func, duration, #func, ##__VA_ARGS__)
 
 
-void fuck(int a)
+void foo(int a)
 {
-    // printf("Hello World\n");
     printf("Hello World %d\n", a);
 }
 
@@ -97,7 +96,7 @@ int32_t main()
     // printf("%d\n", a);
 
     Timer t2;
-    Call_Stats stats = CALLING_DURATION(t2, fuck, 900, 13);
+    Call_Stats stats = CALLING_DURATION(t2, foo, 900, 13);
     printf("cnt = %lu\n", stats.m_call_count);
     return EXIT_SUCCESS;
 }
